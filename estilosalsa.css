@@ -1,0 +1,39 @@
+
+body{background-color:black;width:99%;margin:0px auto;padding:0;border:0;text-align:center}
+#navegacion{;margin-left:2%;margin-right:3%; position: absolute; top: 200px; width:95%;text-align: center; background-color:brown;border:6px outset white;height:30px; padding-top:10px}
+#navegacion2{;margin-left:2%;margin-right:3%; position: absolute; top: 200px; width:95%;text-align: center; background-color:yellow;border:6px outset white;height:30px; padding-top:10px}
+.iz{width:7%;background-color:black}
+.coliz{width:20%;background-color:yellow; border:6px outset white; vertical-align:top}
+section{text-align:left; text-indent:30px; color:yellow; margin-left:20px;margin-right:20px;font-family:arial}
+
+p{text-align:center; text-indent:30px; color:yellow; margin-left:20px;margin-right:20px;font-family:arial}
+h1{color:yellow;text-align:center;font-family:"times new roman",arial}
+h2{color:yellow;text-align:center;font-family:"times new roman",arial}
+h3{color:yellow;text-indent:40px}
+h3.jp{color:yellow;text-align:right}
+ul{color:yellow;text-align:center;font-family:"times new roman",arial}
+ol{color:yellow;text-align:center;font-family:"times new roman",arial}
+b.social{color:black;font-family:Verdana,Arial}
+#esquina1{position: absolute; top:11px; left: 15px;width: 120px; height: 120px}
+#esquina2{position: absolute; top: 11px; right:13px; width: 120px; height: 120px}
+		
+/* #ventana1{ border:6px outset white;margin:15px;padding:0;background-image:url("objetos/fotocolusalsa1.jpg")}
+#ventana2{border:6px outset white;margin:15px;padding:0;background-image:url("objetos/fotocolusalsa2.jpg")}
+#ventana3{text-align:center; border:6px outset white;margin:15px;padding:0;background-image:url("objetos/tienda.jpg")}
+#ventana4{text-align:center; border:6px outset white;margin:15px;padding:0;background-image:url("objetos/lunares.jpg")}
+#ventana5{text-align:center; border:6px outset white;margin:15px;padding:0;background-image:url("objetos/tienda2.jpg")} */
+
+/* a{color:black; font-family:"Comic Sans ms",Arial,Verdana;background-color:white;text-decoration:none}
+a:link{color:black; font-family:"Comic Sans ms",Arial,Verdana;background-color:white;text-decoration:none}
+a:visited{color:black;text-decoration:none;background-color:silver} 
+a:hover{color:black;text-decoration:underline;background-color:yellow}
+a.segundo{color:brown; font-family:Cambria, Georgia,Verdana,Arial;text-decoration:none;background-color:white}
+a.segundo:link{color:brown; font-family:Cambria, Georgia,Arial,Verdana;;text-decoration:none;background-color:white}
+a.segundo:visited{color:brown;text-decoration:none;background-color:silver}
+a.segundo:hover{color:white;text-decoration:none;background-color:brown}
+a.publi{color:white; font-family:Verdana,Arial;text-decoration:underline;background-color:#FA5858}
+a.publi:link{color:white; font-family:Arial,Verdana;;text-decoration:underline;background-color:#FA5858}
+a.publi:hover{color:black;text-decoration:none;background-color:red}
+a.publi:visited{color:black;text-decoration:underline;background-color:#FA5858}
+
+#centrada{margin-left: auto; margin-right: auto} */
