@@ -11,4 +11,21 @@ div{color:yellow;text-align:center;font-family:"times new roman",arial}
 b.social{color:black;font-family:Verdana,Arial}
 #esquina1{position: absolute; top:11px; left: 15px;width: 120px; height: 120px}
 #esquina2{position: absolute; top: 11px; right:13px; width: 120px; height: 120px}
-		
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+}
+.nav li {
+    display: inline;
+    padding: 16px;
+    margin: 10px;
+    
+
+}
+
+.nivel li {
+    text-align: center;
+
+}	
