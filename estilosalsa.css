@@ -72,8 +72,8 @@
 #img2 {
     float: center;
     border-radius: 30px;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 #img3 {
     float: center;
@@ -92,6 +92,12 @@
     border-radius: 30px;
     width: 100%;
     height: 100%;
+}
+#img6 {
+    float: center;
+    border-radius: 30px;
+    width: 95%;
+    height: 95%;
 }
 .nav li{
     display: inline-flex;
@@ -113,7 +119,7 @@ body {
     margin:0px auto;
     padding:0;
     border:0;
-    text-align:center
+    text-align:center;
 }
 p {
     text-align:center;
@@ -121,21 +127,22 @@ p {
     color:yellow;
     margin-left:20px;
     margin-right:20px;
-    font-family:arial
+    font-family:arial;
 }
 h1 {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial
+    font-family:"times new roman",arial;
 }
 h2 {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial
+    font-family:"times new roman",arial;
 }
 h3 {
     color:yellow;
-    text-indent:40px
+    text-align:center;
+    font-family:"times new roman",arial;
 }
 h3#baile {
     color:yellow;
@@ -145,19 +152,21 @@ h3#baile {
 ul {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial
+    font-family:"times new roman",arial;
+    list-style: none;
 }
 ol {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial
+    font-family:"times new roman",arial;
+    list-style: none;
 }
 div {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial
+    font-family:"times new roman",arial;
 }
-b.social {
+/* b.social {
     color:black;
     font-family:Verdana,Arial;
     position: absolute;
@@ -165,18 +174,15 @@ b.social {
     right:13px;
     width: 120px;
     height: 120px;
-} 
-ul {
+}  */
+/* ul {
     list-style: none;
-}
-ol {
-    list-style: none;
-}
-
-.nivel li {
+} */
+/* ol {
+    
     text-align: center;
-}
-ol.list li {
+} */
+#list {
     text-align: center;
 }	
 #video1 {
