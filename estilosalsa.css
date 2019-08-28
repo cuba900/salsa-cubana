@@ -3,7 +3,7 @@ header {
 }
  
 header nav {
-	background: black;
+	background: none;
 	z-index:1000;
 	max-width: 1000px;
 	width:95%;
@@ -23,6 +23,10 @@ header nav ul li {
     background: #2110bb;
     padding: 5px;
     border-radius: 2px;
+}
+#top nav ul li a{
+    text-align: center;
+    
 }
 /* hover - mouse em cima do elemento */
 #top a:hover {
@@ -71,7 +75,7 @@ header nav ul li {
     left: 1em;
     top: 4em;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1060px) {
     body {
 		padding-top:80px;
 	}
@@ -82,20 +86,21 @@ header nav ul li {
       text-align: center;
     }
     .menu_bar {
-        display:none;
+        display: none;
     }
     .menu_bar {
-        display:block;
-        width:100%;
+        display: block;
+        width: 100%;
         /* position: fixed; */
         top:0;
         
     }
     
     .menu_bar .bt-menu {
-        display: block;
+        /* display: block; */
         padding: 20px;
-        color: #fff;
+        /* color: #fff; */
+        color: yellow;
         overflow: hidden;
         font-size: 25px;
         font-weight: bold;
@@ -104,7 +109,7 @@ header nav ul li {
     
     .menu_bar span {
         float: right;
-        font-size: 40px;
+        font-size: 20px;
     }
     header nav {
 		width: 80%;
@@ -112,7 +117,6 @@ header nav ul li {
 		position: fixed;
 		right:100%;
 		margin: 0;
-		overflow: scroll;
 	}
  
 	header nav ul li {
@@ -165,11 +169,12 @@ header nav ul li {
 }
 .menu li{
     display: inline-flex;
-    margin: 20px;
-    padding: 20px;
+    margin: 30px;
+    right: 1em;
+    /* padding: 20px;
     flex-wrap: wrap;
-    max-width: 1100px;
-    /* justify-content: space-between; */
+    max-width: 1100px; */
+   
 }
 .menu {
     list-style: none;
@@ -215,9 +220,10 @@ h3#baile {
 
 ul {
     color:yellow;
-    text-align:center;
+    /* text-align:center; */
     font-family:"times new roman",arial;
     list-style: none;
+    padding-right: 40px;
 }
 ol {
     color:yellow;
