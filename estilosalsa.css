@@ -22,6 +22,11 @@ header nav ul li {
 }
 .menu {
     text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.menu_bar {
+    display: none;
 }
 #top a {
     text-decoration: none;
@@ -39,31 +44,43 @@ header nav ul li {
     box-shadow: whitesmoke 2px 1px 2px;
     background: #333;
 }
+
 #contato:hover {
     box-shadow: whitesmoke 2px 1px 2px;
     background: #333;
-
 }
+
+#topo a:hover {
+    box-shadow: whitesmoke 2px 1px 2px;
+    background: #333;
+}
+
 /* active - elemento esta sendo clicado */
 #top a:active {
     box-shadow: inset wheat 2px 1px 2px;
     background: red;
 }
+
 #contato:active {
     box-shadow: inset wheat 2px 1px 2px;
-    background: red,
+    background: blue,
+}
+
+#topo a:active {
+    box-shadow: inset wheat 2px 1px 2px;
+    background: red;
 }
 
 /* --- reproductor flutuante */
 #repro {
-    background: #ff7a00;
+    background: red;
     font-family: "times new roman",arial;
     color: white;
     text-decoration: none;
     padding: 1px;
     border-radius: 5px;
     position: fixed;
-    left: 1em;
+    right: 1em;
     top: 1em;
     width: 20%;
     height: 5%;
@@ -71,15 +88,15 @@ header nav ul li {
 }
 /* --- botão flutuante */
 #contato {
-    background: #ff7a00;
+    background: red;
     font-family: "times new roman",arial;
     color: white;
     text-decoration: none;
     padding: 3px;
     border-radius: 5px;
     position: fixed;
-    left: 1em;
-    top: 6em;
+    right: 1em;
+    top: 4em;
 }
 @media screen and (max-width: 1060px) {
     body {
@@ -91,9 +108,7 @@ header nav ul li {
     #top{ 
       text-align: center;
     }
-    .menu_bar {
-        display: none;
-    }
+    
     .menu_bar {
         display: block;
         width: 100%;
@@ -101,25 +116,22 @@ header nav ul li {
         top:0;
     }
     .menu_bar .bt-menu {
-        /* display: block; */
         padding: 20px;
-        /* color: #fff; */
-        color: yellow;
+        color: whitesmoke;
         overflow: hidden;
-        font-size: 25px;
+        font-size: 40px;
         font-weight: bold;
         text-decoration: none;
     }
-    .menu_bar span {
-        float: right;
-        font-size: 20px;
-    }
+    
+    
     header nav {
-		width: 80%;
+		width: 75%;
 		height: calc(100% - 80px);
-		position: fixed;
+		position: absolute;
 		right:100%;
-		margin: 0;
+        margin: 0;
+       
 	}
  
 	header nav ul li {
@@ -186,7 +198,7 @@ header nav ul li {
     
 }
 body {
-    background-color:black;
+    background-color: #333;
     width:99%;
     margin:0px auto;
     padding:0;
@@ -194,50 +206,58 @@ body {
     text-align:center;
 }
 p {
-    text-align:center;
+    text-align:justify;
     text-indent:30px;
-    color:yellow;
+    color: whitesmoke;
     margin-left:20px;
     margin-right:20px;
-    font-family:arial;
+    /* font-family:arial; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Comfortaa', cursive;
 }
 h1 {
-    color:yellow;
+    color: whitesmoke;
     text-align:center;
-    font-family:"times new roman",arial;
+    /* font-family:"times new roman",arial; */
+    font-family: 'Comfortaa', cursive;
 }
 h2 {
-    color:yellow;
+    color: whitesmoke;
     text-align:center;
-    font-family:"times new roman",arial;
+    /* font-family:"times new roman",arial; */
+    font-family: 'Comfortaa', cursive;
 }
 h3 {
-    color:yellow;
+    color: whitesmoke;
     text-align:center;
-    font-family:"times new roman",arial;
+    /* font-family:"times new roman",arial; */
+    font-family: 'Comfortaa', cursive;
 }
+
 h3 #baile {
-    color:yellow;
+    color:whitesmoke;
     text-align:center;
+    font-family: 'Comfortaa', cursive;
 }
 
 ul {
-    color:yellow;
+    color:whitesmoke;
     /* text-align:center; */
-    font-family:"times new roman",arial;
+    /* font-family:"times new roman",arial; */
+    font-family: 'Comfortaa', cursive;
     list-style: none;
     padding-right: 40px;
 }
 ol {
-    color:yellow;
+    color:whitesmoke;
     text-align:center;
-    font-family:"times new roman",arial;
+    font-family: 'Comfortaa', cursive;
     list-style: none;
 }
 div {
     color:yellow;
     text-align:center;
-    font-family:"times new roman",arial;
+    font-family: 'Comfortaa', cursive;
 }
 #list {
     text-align: center;
@@ -250,4 +270,13 @@ div {
 }
 #topo ul li a {
     text-align: center;
-} 
+    text-decoration: none;
+    color: white;
+    background: #2110bb;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#linha {
+    color: yellow;
+}
